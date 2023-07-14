@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            color: black;
+            background-color: rgb(188, 153, 107);
+        }
+
+        .header {
+            padding: 16px;
+            margin: 14px 0px;
+            text-align: center;
+        }
+
+        .header>.title {
+            margin-bottom: 1rem;
+        }
+
+        .tribute {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            max-width: 70rem;
+            background: white;
+            color: black;
+            align-items: center;
+            padding: 0px 0px 0px 1rem;
+        }
+
+        .tribute blockquote {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .tribute img {
+            border: 4px solid black;
+            border-radius: 5px;
+            max-width: 60%;
+        }
+
+        .bio {
+            text-align: center;
+            color: black;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        .bio:hover {
+            color: white;
+        }
+
+        .imgbio {
+            position: absolute;
+            width: 200vh;
+            min-height: 100vh;
+            /* background-image: url("https://images.news18.com/ibnlive/uploads/2022/03/bhagat-singh.png"); */
+            background-repeat: no-repeat;
+            z-index: -1;
+            filter: blur(5px);
+        }
+
+        .biography {
+            color: rgb(255, 255, 255);
+            margin-top: 100px;
+            text-align: center;
+            font-size: 16px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="titile">BHAGAT SINGH</h1>
+        <p class="description"><b>1907-1931<br><br><br></b></p>
+
+        <section class="tribute">
+            <blockquote>
+                <i><b>"I am full of ambition and hope and charm of life.<br> But I can renounce everything at the time
+                        of need."</b></i>
+            </blockquote>
+            <img src="https://im.hunt.in/cg/iol/About/Personalities/Freedom-Fighters/bhagat-singh.jpg"
+                alt="Bhagat Singh">
+        </section>
+    </header>
+
+    <section>
+        <!-- <h2 class="bio"><b><br><br>BIOGRAPHY</b></h2> -->
+        <img class="imgbio" src="https://images.news18.com/ibnlive/uploads/2022/03/bhagat-singh.png" width="150vh" height="70vh">
+        <div class="biography">
+            <p><b class="bio">BIOGRAPHY</b><br><br><br><br><br>Bhagat Singh was born on September 27, 1907, in the village of Banga near Lyallpur district in Punjab,
+                British India. He was an Indian freedom fighter who is considered to be one of the most influential
+                revolutionaries of the Indian independence movement. Bhagat Singh joined the Hindustan Republican
+                Association (HRA) at a young age and became involved in revolutionary activities. He participated in
+                several
+                acts of sabotage against British institutions, including an attempt to bomb the Central Legislative
+                Assembly
+                in Delhi. In 1929, he and two other activists were convicted of assassinating John Saunders, a British
+                police officer. Singh was executed by hanging on March 23, 1931, at Lahore jail at the age of 23.
+                Despite
+                his short life, Bhagat Singh left a lasting legacy in the struggle for Indian independence. He is
+                revered by
+                many as a martyr and symbol of resistance to British colonialism in India. His example continues to
+                inspire
+                new generations of activists worldwide.<br><br>Bhagat Singh's biography covers his upbringing in Punjab, his
+                involvement with revolutionary groups throughout his teenage years, and the significant impact he had on
+                India's struggle for independence. It details his trial when he was charged with the murder of John P.
+                Saunders, a British police officer, as well as his life in prison leading up to his execution at Lahore
+                jail when he was 23 years old. Throughout it all, Bhagat Singh remained strong in defense of Indian
+                independence even in the face of great adversity.</p>
+        </div>
+    </section>
+</body>
+
+</html>
